@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON Editor + AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>JSON Data</h2>
+<div id="data-container"></div>
+
+<h3>Add Requirements</h3>
+<textarea id="extraInput"></textarea>
+
+<button onclick="submitData()">Submit to Model</button>
+
+<h3>Output</h3>
+<div id="output"></div>
+
+<textarea id="followup"></textarea>
+<button onclick="sendFollowup()">Refine</button>
+
+<button onclick="downloadPDF()">Download PDF</button>
+
+<script src="script.js"></script>
+</body>
+</html>
